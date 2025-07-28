@@ -19,6 +19,8 @@ class _LoginScreenState extends State<LoginScreen> {
   void _showToast(String message) {
     Fluttertoast.showToast(
       msg: message,
+      toastLength: Toast.LENGTH_LONG,
+      timeInSecForIosWeb: 5,
       backgroundColor: Colors.purple,
       textColor: Colors.white,
     );
